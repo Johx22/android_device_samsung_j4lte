@@ -1,10 +1,10 @@
 # System
-/system         ext4    /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM      flags=backup=0;display="System"
-/system_image   emmc    /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM      flags=backup=1
+/system         ext4    /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM      flags=backup=1;display="System"
+/system_image   emmc    /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM      flags=display="System Image";backup=1;flashimg=1
 
 # Vendor
-/vendor         ext4    /dev/block/platform/13540000.dwmmc0/by-name/VENDOR      flags=backup=0;display="Vendor"
-/vendor_image   emmc    /dev/block/platform/13540000.dwmmc0/by-name/VENDOR      flags=backup=1
+/vendor         ext4    /dev/block/platform/13540000.dwmmc0/by-name/VENDOR      flags=backup=1;display="Vendor"
+/vendor_image   emmc    /dev/block/platform/13540000.dwmmc0/by-name/VENDOR      flags=display="Vendor Image";backup=1;flashimg=1
 
 # Cache
 /cache          ext4    /dev/block/platform/13540000.dwmmc0/by-name/CACHE       flags=display="Cache"

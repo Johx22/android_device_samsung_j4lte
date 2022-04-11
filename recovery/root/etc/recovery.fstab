@@ -37,16 +37,9 @@
 /usb-otg        auto    /dev/block/sda1         /dev/block/sda                  flags=display="USB OTG";storage;wipeingui;removable
 
 #ODM
-<<<<<<< HEAD
 /odm            ext4    /dev/block/platform/13540000.dwmmc0/by-name/ODM         flags=display="ODM";backup=1
 /odm_image      emmc    /dev/block/platform/13540000.dwmmc0/by-name/ODM         flags=display="Odm_image";backup=1;flashimg=1
 
 #OMR
 /omr            ext4    /dev/block/platform/13540000.dwmmc0/by-name/OMR         flags=display="OMR";backup=1
 /omr_image      emmc    /dev/block/platform/13540000.dwmmc0/by-name/OMR         flags=display="Omr_image";backup=1;flashimg=1
-=======
-/odm            ext4    /dev/block/platform/13540000.dwmmc0/by-name/ODM         flags=backup=0;display="ODM";flashimg=1
-
-#OMR
-/omr            ext4    /dev/block/platform/13540000.dwmmc0/by-name/OMR         flags=backup=0;display="OMR";flashimg=1
->>>>>>> 649c90ec1cd7241baf1a53a62baf57c3c60db015

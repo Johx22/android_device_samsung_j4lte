@@ -61,7 +61,3 @@ TW_HAS_DOWNLOAD_MODE := true
 TW_USE_NEW_MINADBD := true
 TW_EXTRA_LANGUAGES := true
 TW_EXCLUDE_SUPERSU := true
-
-#PBRP flags
-PB_TORCH_PATH := /sys/devices/virtual/camera/flash/rear_flash
-PB_TORCH_MAX_BRIGHTNESS := 1

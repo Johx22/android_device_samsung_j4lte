@@ -1,1 +1,1 @@
-/sys/class/devices/virtual/camera/flashlight/rear_flash
+/sys/devices/virtual/camera/flash/rear_flash

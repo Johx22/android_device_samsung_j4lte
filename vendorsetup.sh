@@ -19,5 +19,8 @@ export FOX_BUILD_TYPE="Beta"
 export OF_MAINTAINER="Johann"
 export OF_MAINTAINER_AVATAR="$PWD/device/samsung/j4ltejx/maintainer.png"
 
+#Magisk Add-on
+export FOX_USE_SPECIFIC_MAGISK_ZIP="$PWD/device/samsung/j4ltejx/magisk/Magisk-v24.3.zip"
+
 # Add j4lte into lunch entry
 add_lunch_combo omni_j4ltejx-eng

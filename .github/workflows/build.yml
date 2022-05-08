@@ -2,7 +2,7 @@ name: OrangeFox Builder
 on: push
 
 env:
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
+  MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
   MANIFEST_BRANCH: fox_9.0
   DEVICE: j4ltejx
   DT_LINK: https://github.com/Johx22/android_device_samsung_j4lte -b fox_9.0
@@ -54,7 +54,7 @@ jobs:
          run: |
               cd work
               . build/envsetup.sh &&lunch omni_$DEVICE-eng &&mka $TARGET
-              
+
        - uses: actions/upload-artifact@v2
          with:
           name: recoveryzip

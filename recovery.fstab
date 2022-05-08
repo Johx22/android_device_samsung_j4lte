@@ -11,6 +11,7 @@
 
 # Data
 /data           ext4    /dev/block/platform/13540000.dwmmc0/by-name/USERDATA    flags=display="Data";encryptable=footer;length=-20480
+/data_image     emmc    /dev/block/platform/13540000.dwmmc0/by-name/USERDATA    flags=display="Userdata Image";flashimg=1
 
 # Boot
 /boot           emmc    /dev/block/platform/13540000.dwmmc0/by-name/BOOT        flags=backup=1;display="Boot"
